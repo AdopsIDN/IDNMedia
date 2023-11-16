@@ -1,0 +1,51 @@
+
+
+
+<!-- Leaderboard -->
+<amp-ad width=300 height=250
+	type="doubleclick"
+	data-slot="/253109699/DuniakuAMP/AnimeManga"
+	data-multi-size-validation="false"
+	json='{"targeting":{"pos":["Leaderboard"]}}'>
+</amp-ad>
+
+<!-- InArticle1 -->
+<amp-ad width=320 height=480
+	type="doubleclick"
+	data-slot="/253109699/DuniakuAMP/AnimeManga"
+	data-multi-size="300x250"
+	layout="fixed" 
+	data-multi-size-validation="false"
+	json='{"targeting":{"pos":["InArticle1"]}}'>
+</amp-ad>
+
+<!-- InArticle2 -->
+<amp-ad width=300 height=250
+	type="doubleclick"
+	data-slot="/253109699/DuniakuAMP/AnimeManga"
+	data-multi-size="336x280"
+	layout="fixed" 
+	data-multi-size-validation="false"
+	json='{"targeting":{"pos":["InArticle2"]}}'>
+</amp-ad>
+
+<!-- InArticle3 -->
+<amp-ad width=300 height=600
+	type="doubleclick"
+	data-slot="/253109699/DuniakuAMP/AnimeManga"
+	data-multi-size="300x250"
+	layout="fixed" 
+	data-multi-size-validation="false"
+	json='{"targeting":{"pos":["InArticle3"]}}'>
+</amp-ad>
+
+
+<!-- Sticky -->
+<amp-ad width=320 height=50
+	type="doubleclick"
+	data-slot="/253109699/DuniakuAMP/AnimeManga"
+    data-multi-size="320x100"
+	layout="fixed" 
+	data-multi-size-validation="false"
+	json='{"targeting":{"pos":["Sticky"]}}'>
+</amp-ad>
