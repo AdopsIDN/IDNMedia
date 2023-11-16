@@ -1,0 +1,143 @@
+<!-- Start GPT Tag -->
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+
+var topic = [];
+
+  googletag.cmd.push(function() {
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[320,100],[300,250]], 'div-gpt-ad-leaderboard')
+              .setTargeting('pos', ['Leaderboard'])
+              .addService(googletag.pubads());
+
+         googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[1,1]],[300,250],[336,280],[320,480]], 'div-gpt-ad-inarticle1')
+            .setTargeting('pos', ['InArticle1'])
+            .addService(googletag.pubads());
+        
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[1,1]],[300,250],336,280]], 'div-gpt-ad-inarticle2')
+            .setTargeting('pos', ['InArticle2'])
+            .addService(googletag.pubads());
+
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[300,250]],[336,280]], 'div-gpt-ad-inarticle3')
+            .setTargeting('pos', ['InArticle3'])
+            .addService(googletag.pubads());
+
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[320,480]], 'div-gpt-ad-mega_billboard')
+              .setTargeting('pos', ['mega_billboard'])
+              .addService(googletag.pubads());
+
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[320,50],[320,100]], 'div-gpt-ad-sticky')
+              .setTargeting('pos', ['Sticky'])
+              .addService(googletag.pubads());
+
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[1,1]], 'div-gpt-ad-custom1')
+              .setTargeting('pos', ['Custom1'])
+              .addService(googletag.pubads());
+
+
+      googletag.defineSlot('/253109699/DuniakuMobile/xxx', [[1,1]], 'div-gpt-ad-custom2')
+              .setTargeting('pos', ['Custom2'])
+              .addService(googletag.pubads());
+
+      googletag.defineOutOfPageSlot('/253109699/DuniakuMobile/xxx', 'div-gpt-ad-oop1')
+              .setTargeting('pos', ['OOP1'])
+              .addService(googletag.pubads());
+
+      googletag.defineOutOfPageSlot('/253109699/DuniakuMobile/Interstitial', 
+               googletag.enums.OutOfPageFormat.INTERSTITIAL)
+               .addService(googletag.pubads());
+
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.pubads().setTargeting('page_type', [‘article’]).setTargeting('topic', [topic]);
+    googletag.enableServices();
+  });
+</script>
+<!-- End GPT Tag -->
+
+
+NOTES:
+Ganti ad unit “xxx” sesuai dengan penamaan kanal
+Ex: 
+Review → /DuniakuMobile/Tech
+Anime-manga → /DuniakuMobile/Anime-manga
+Game → /DuniakuMobile/Game
+Tekno → /DuniakuMobile/Tekno
+Film → /DuniakuMobile/Film
+Geek → /DuniakuMobile/Geek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BODY
+
+<div id='div-gpt-ad-leaderboard'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-leaderboard'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-inarticle1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-inarticle1'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-inarticle2'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-inarticle2'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-inarticle3'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-inarticle3'); });
+        </script>
+</div
+--------------------------------------------------------------------------------------------------------------------
+<div id="div-gpt-ad-mega_billboard">
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-mega_billboard'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-sticky'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-sticky'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-custom1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-custom1'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-custom2'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-custom2'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+<div id='div-gpt-ad-oop1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-oop1'); });
+        </script>
+</div>
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+NOTES:
+Implementasi script body sesuai dengan posisi yang sudah ditentukan
+Khusus untuk custom1, custom2, & oop1, script BODY boleh diletakkan dimana saja, script tersebut hanya akan menampilkan 1x1 pixel
