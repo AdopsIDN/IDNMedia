@@ -9,18 +9,15 @@
 <!-- GPT Tag-->
 <script async src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'></script>
 <script>
+var gptadslots = [];
+window.googletag = window.googletag || {cmd: []};
+
     // initialize pbjs
     var pbjs = pbjs || {};
     pbjs.que = pbjs.que || [];
 
     gpt_slot_objects = [];
 
-    // setup googletag
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-</script>
-
-<script>
 googletag.cmd.push(function(){
     gpt_leaderboard = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[300,250],[320,100],[336,280]], 'div-gpt-ad-leaderboard')
 			.setTargeting('pos', ['Leaderboard'])
@@ -34,46 +31,36 @@ googletag.cmd.push(function(){
 			.setTargeting('pos', ['InFeed2'])
 			.addService(googletag.pubads());
 
-	gpt_sticky = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[320,50],[320,100]],  'div-gpt-ad-sticky')
-			.setTargeting('pos', ['Sticky'])
+	gpt_sticky = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[320,50],[320,100]],  'div-gpt-ad-sticky_bottom')
+			.setTargeting('pos', ['Sticky_Bottom'])
 			.addService(googletag.pubads());
 
-    gpt_mb = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[1,1],[320,480]], 'div-gpt-ad-mega_billboard')
+    gpt_mb = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[320,480]], 'div-gpt-ad-mega_billboard')
 			.setTargeting('pos', ['mega_billboard'])
 			.addService(googletag.pubads());
     
-    googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[1,1]], 'div-gpt-ad-custom1')
-            .setTargeting('pos', ['custom1'])
+    gpt_ct1 = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[1,1]], 'div-gpt-ad-custom1')
+            .setTargeting('pos', ['Custom1'])
             .addService(googletag.pubads());
     
-    googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[1,1]], 'div-gpt-ad-custom2')
-            .setTargeting('pos', ['custom2'])
+    gpt_ct2 = googletag.defineSlot('/253109699/IDNTimesMobile/Homepage', [[1,1]], 'div-gpt-ad-custom2')
+            .setTargeting('pos', ['Custom2'])
             .addService(googletag.pubads());
 
-    googletag.defineOutOfPageSlot('/253109699/IDNTimesMobile/Homepage', 'div-gpt-ad-oop1')
-            .setTargeting('pos', ['oop1'])
+    gpt_oop = googletag.defineOutOfPageSlot('/253109699/IDNTimesMobile/Homepage', 'div-gpt-ad-oop1')
+            .setTargeting('pos', ['OOP1'])
             .addService(googletag.pubads());
       	
-	googletag.defineOutOfPageSlot('/253109699/IDNTimesMobile/Interstitial', 
+	gpt_interstitial = googletag.defineOutOfPageSlot('/253109699/IDNTimesMobile/Interstitial', 
 			googletag.enums.OutOfPageFormat.INTERSTITIAL)
 			.addService(googletag.pubads());
 
-    gpt_slot_objects.push(gpt_leaderboard, gpt_infeed1, gpt_infeed2, gpt_sticky, gpt_mb);
+    gpt_slot_objects.push(gpt_leaderboard, gpt_infeed1, gpt_infeed2, gpt_sticky, gpt_mb, gpt_ct1, gpt_ct2, gpt_oop, gpt_interstitial);
             
     googletag.pubads().enableSingleRequest();
     googletag.pubads().disableInitialLoad();
     googletag.pubads().collapseEmptyDivs(true);
-    googletag.pubads().setTargeting('page_type', [home]);
-    if(window.isAllowAddressByRegion){
-        googletag.pubads().setTargeting('lotameAudience', getLotameAudience());
-    }
-    googletag.pubads().addEventListener('slotOnload', function (event) {
-        $("#"+event.slot.getSlotElementId()).removeClass("loading-ads");
-    });
-    googletag.pubads().addEventListener('slotRenderEnded', function(event){var slot_id = event.slot.getSlotElementId();
-        if (slot_id == 'div-gpt-ad-sticky_bottom'){if (!event.isEmpty){$('.bottom-sticky-ads').css({ 'display': 'block' });}}
-    });
-
+    googletag.pubads().setTargeting('Site', ['IDNTimes']).setTargeting('page_type', ['home']);
     googletag.enableServices();
 
     // function that calls the ad-server
