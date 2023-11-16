@@ -114,3 +114,101 @@ window.googletag = window.googletag || {cmd: []};
 </script>
 
 <!-- End Script Ad -->
+
+
+
+
+
+
+
+<!-- Body -->
+<!-- Leaderboard -->
+<div id='div-gpt-ad-leaderboard_top'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-leaderboard_top'); });
+        </script>
+</div>
+
+<!-- InFeed1 -->
+<div id='div-gpt-ad-infeed1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-infeed1'); });
+        </script>
+</div>
+
+<!-- InFeed2 -->
+<div id='div-gpt-ad-infeed2'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-infeed2'); });
+        </script>
+</div>
+
+
+<!-- InFeed3 -->
+<div id='div-gpt-ad-infeed3'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-infeed3'); });
+        </script>
+</div>
+
+<!-- Rectangle -->
+<div id='div-gpt-ad-rectangle'>
+    <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-rectangle'); });
+    </script>
+</div>
+
+
+<!-- Billboard Vertical -->
+<div id='div-gpt-ad-billboard_vertical'>
+    <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-billboard_vertical'); });
+    </script>
+</div>
+
+<!-- Skin Left -->
+<div id="div-gpt-ad-skin_left">
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-skin_left'); });
+        </script>
+</div>
+
+
+<!-- Skin Right -->
+<div id="div-gpt-ad-skin_right">
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-skin_right'); });
+        </script>
+</div>
+
+
+<!-- Sticky -->
+<div id='div-gpt-ad-sticky_bottom'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-sticky_bottom'); });
+        </script>
+</div>
+
+
+<!-- Custom1 -->
+<div id='div-gpt-ad-custom1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-custom1'); });
+        </script>
+</div>
+
+
+<!-- Custom2 -->
+<div id='div-gpt-ad-custom2'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-custom2'); });
+        </script>
+</div>
+
+
+<!-- OOP1 -->
+<div id='div-gpt-ad-oop1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-oop1'); });
+        </script>
+</div>
