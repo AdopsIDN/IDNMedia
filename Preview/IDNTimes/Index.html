@@ -302,25 +302,27 @@ googletag.cmd.push(function(){
     gpt_sticky = googletag.defineSlot('/253109699/IDNTimesDesktop/News', [[728,90]], 'div-gpt-ad-sticky_bottom')
             .setTargeting('pos', ['sticky_bottom'])
             .addService(googletag.pubads());
+
+    gpt_slot_objects.push(gpt_leaderboard, gpt_mr1, gpt_mr2, gpt_skinleft, gpt_skinright, gpt_inarticle1,
+            gpt_inarticle2, gpt_inarticle3, gpt_sticky);
    
-    gpt_ct1 = googletag.defineSlot('/253109699/IDNTimesDesktop/News', [[1,1]], 'div-gpt-ad-custom1')
+    googletag.defineSlot('/253109699/IDNTimesDesktop/News', [[1,1]], 'div-gpt-ad-custom1')
             .setTargeting('pos', ['custom1'])
             .addService(googletag.pubads());
    
-    gpt_ct2 =  googletag.defineSlot('/253109699/IDNTimesDesktop/News', [[1,1]], 'div-gpt-ad-custom2')
+    googletag.defineSlot('/253109699/IDNTimesDesktop/News', [[1,1]], 'div-gpt-ad-custom2')
             .setTargeting('pos', ['custom2'])
             .addService(googletag.pubads());
 
-    gpt_oop = googletag.defineOutOfPageSlot('/253109699/IDNTimesDesktop/News', 'div-gpt-ad-oop1')
+    googletag.defineOutOfPageSlot('/253109699/IDNTimesDesktop/News', 'div-gpt-ad-oop1')
             .setTargeting('pos', ['oop1'])
             .addService(googletag.pubads());
 
-    gpt_interstitial = googletag.defineOutOfPageSlot('/253109699/IDNTimesDesktop/Interstitial',
+    googletag.defineOutOfPageSlot('/253109699/IDNTimesDesktop/Interstitial',
                 googletag.enums.OutOfPageFormat.INTERSTITIAL)
                 .addService(googletag.pubads());
                 
-    gpt_slot_objects.push(gpt_leaderboard, gpt_mr1, gpt_mr2, gpt_skinleft, gpt_skinright, gpt_inarticle1,
-            gpt_inarticle2, gpt_inarticle3, gpt_sticky, gpt_ct1, gpt_ct2, gpt_oop, gpt_interstitial);
+
            
     googletag.pubads().enableSingleRequest();
     googletag.pubads().disableInitialLoad();
